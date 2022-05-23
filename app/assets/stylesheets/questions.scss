@@ -1,0 +1,36 @@
+// Place all the styles related to the page controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+$gray: #F4F4F4;
+
+body {
+  background: $gray;
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: blue;
+}
+
+.banner {
+  background: red;
+  h1 {
+    font-size: 50px;
+  }
+}
+
+h2 {
+  font-size: small;
+  font-style: italic;
+  color: blue;
+}
+
+p {
+  color: black;
+}
+
+a {
+  color: green;
+  &:hover {
+    color:red;
+  }
+}
